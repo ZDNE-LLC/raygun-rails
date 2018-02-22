@@ -14,8 +14,8 @@ gem "autoprefixer-rails"
 gem "bootstrap-sass"
 gem "coffee-rails"
 gem "jquery-rails"
-gem "sass-rails", require: false # Needed for generator (e.g. rail g controller Users)
-gem "sassc-rails"
+gem "sass-rails"
+# gem "sassc-rails"
 gem "simple_form"
 gem "slim-rails"
 gem "uglifier"
@@ -53,3 +53,8 @@ group :development do
   # gem "guard-rspec", ">= 4.6.5" # Resolves to 1.x without a version constraint. :/
   # gem "guard-livereload"
 end
+
+gem "active_interaction"
+gem "money-rails"
+gem "devise"
+gem "pundit"
