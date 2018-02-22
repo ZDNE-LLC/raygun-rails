@@ -24,7 +24,7 @@ module AppPrototype
 
     config.generators do |g|
       # Core Rails
-      # g.orm              :active_record, primary_key_type: :uuid
+      g.orm              :active_record, primary_key_type: :uuid
       g.javascripts      false
       g.stylesheets      false
       g.helper           false
